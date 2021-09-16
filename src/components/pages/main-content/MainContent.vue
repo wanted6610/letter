@@ -1,5 +1,9 @@
 <template>
-    <div class="main">23</div>
+    <div class="main">
+        <div class="container">
+            123
+        </div>
+    </div>
 </template>
 
 <script>
