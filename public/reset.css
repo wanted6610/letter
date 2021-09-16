@@ -41,6 +41,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 input,
 button,
 textarea {

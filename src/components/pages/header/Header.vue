@@ -28,10 +28,17 @@
                     </button>
                 </div>
             </div>
-
         </div>
     </header>
 </template>
+
+<script>
+export default {
+    name: 'Header',
+    components: {
+    }
+}
+</script>
 
 <style lang="scss">
 .header{
@@ -50,6 +57,9 @@
     &-brand{
         display: flex;
         align-items: center;
+        &__title{
+            margin-left: 10px;
+        }
     }
 }
 
@@ -87,10 +97,3 @@
 }
 
 </style>
-
-<script>
-export default {
-    components: {
-    }
-}
-</script>
